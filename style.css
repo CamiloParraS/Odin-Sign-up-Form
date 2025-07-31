@@ -211,3 +211,8 @@ form label input:valid:not(:placeholder-shown) + span {
   font-size: 0.8rem;
   color: var(--color-secondary);
 }
+
+input:required + span:after {
+  /* styles here */
+  content: "*";
+}

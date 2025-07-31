@@ -92,6 +92,7 @@
                 required
                 autocomplete="email"
                 placeholder=""
+                pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
               />
               <span>Email</span>
             </label>
@@ -102,7 +103,7 @@
                 name="phone_number"
                 autocomplete="tel"
                 placeholder=""
-                pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
+                pattern="^^\+?[\d\s\-]{7,20}$"
               />
               <span>Phone Number</span>
             </label>
