@@ -6,6 +6,8 @@
   --color-accent: #fd9a7e;
   --color-text: #fcfcfc;
   --color-background: rgba(114, 114, 114, 0.13);
+  font-family: monospace;
+  font-size: 16px;
 }
 
 body {
@@ -47,7 +49,7 @@ button:hover {
 
 .text-content {
   text-align: right;
-  font-family: monospace;
+  
   font-size: 1.2rem;
 }
 
@@ -172,7 +174,7 @@ form label input {
   background-color: var(--color-sky);
   color: var(--color-text);
   font-size: 1rem;
-  font-family: monospace;
+  
 }
 
 form label input + span {
@@ -207,9 +209,15 @@ form label input:valid:not(:placeholder-shown) + span {
   color: green;
 }
 
-.small-text {
+.small-text{
   font-size: 0.8rem;
   color: var(--color-secondary);
+}
+
+form p {
+  font-size: 0.7rem;
+  color: var(--color-secondary);
+  margin: 0;
 }
 
 input:required + span:after {
