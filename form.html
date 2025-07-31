@@ -68,6 +68,7 @@
                 required
                 autocomplete="given-name"
                 placeholder=""
+                pattern="^[A-Za-zÀ-ÿ\- ]{2,50}$"
               /><span>First name</span>
             </label>
             <label for="last-name">
@@ -78,6 +79,7 @@
                 required
                 autocomplete="family-name"
                 placeholder=""
+                pattern="^[A-Za-zÀ-ÿ\- ]{2,50}$"
               /><span>Last Name</span>
             </label>
           </div>
@@ -98,9 +100,9 @@
                 type="tel"
                 id="phone-number"
                 name="phone_number"
-                required
                 autocomplete="tel"
                 placeholder=""
+                pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
               />
               <span>Phone Number</span>
             </label>
